@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment & Private Secrets (DO NOT COMMIT)
+.env
+.env.local
+*.pem
+*.key
+
+# Temporary / Scratch & Build files
+.tools/
+scratch/
+dist/
+build/
